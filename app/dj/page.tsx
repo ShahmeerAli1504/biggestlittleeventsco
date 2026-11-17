@@ -7,7 +7,7 @@ import { site, telHref } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Book a DJ | DJ Weezy — Biggest Little Events Co, Reno NV",
   description:
-    "Book DJ Weezy through Biggest Little Events Co — traveling open-format DJ, Dholi & MC for weddings, sangeets, corporate events and parties in Reno, NV and beyond.",
+    "Book DJ Weezy through Biggest Little Events Co — mobile, traveling open-format DJs, Dholi & MC for weddings, sangeets, corporate events and parties in Reno, NV and wherever your destination is.",
   alternates: { canonical: "/dj" },
 };
 
@@ -21,7 +21,7 @@ const offer: { icon: IconName; title: string; text: string }[] = [
   { icon: "drum", title: "Live Dhol", text: "Baraats, sangeets and dance-floor peaks with live Dholi energy." },
   { icon: "light", title: "Lighting & Effects", text: "Uplighting, moving party lights, fog and cold sparks for unforgettable moments." },
   { icon: "sync", title: "Seamless Timeline", text: "We coordinate with your planner, venue and our own décor & hospitality team." },
-  { icon: "pin", title: "We Travel", text: "Reno, Tahoe, Northern California and destination events across the West." },
+  { icon: "pin", title: "Mobile & Traveling DJs", text: "No matter where your destination is — Reno, Tahoe, California or across the country — our fully mobile setup comes to you." },
 ];
 
 const packages = [
@@ -43,8 +43,8 @@ export default function DjPage() {
           <img className="dj-logo" src="/assets/img/weezy-logo.jpg" alt="WEEZY DJ logo — bearded figure in sunglasses inside a neon ring" width={1284} height={1080} />
           <h1>Pack the <span className="gold-text">Dance Floor</span></h1>
           <p className="sub">
-            Traveling open-format DJ, Dholi &amp; MC — catering to all events. Pristine sound, a seamless timeline and the energy your
-            guests will talk about for years.
+            Mobile, traveling open-format DJs, Dholi &amp; MC — catering to all events, no matter where the destination. Pristine
+            sound, a seamless timeline and the energy your guests will talk about for years.
           </p>
           <div className="btn-row center">
             <a className="btn" href="#book">Secure Your Date</a>
@@ -73,7 +73,7 @@ export default function DjPage() {
             <div className="dj-stats">
               <div><b>Open Format</b>Every genre</div>
               <div><b>Dholi · MC</b>Live energy</div>
-              <div><b>Traveling</b>Reno &amp; beyond</div>
+              <div><b>Mobile &amp; Traveling</b>Any destination</div>
             </div>
             <div className="btn-row">
               <a className="btn" href="#book">Book Weezy</a>
@@ -161,7 +161,7 @@ export default function DjPage() {
           <div className="form-aside">
             <p className="eyebrow left">Book a DJ</p>
             <h2 className="reveal">Secure Your Date</h2>
-            <p className="lede">Weekend slots fill incredibly fast. Share your event details and we’ll confirm availability with a custom entertainment proposal.</p>
+            <p className="lede">Weekend slots fill incredibly fast. Local or destination — we travel to you. Share your event details and we’ll confirm availability with a custom entertainment proposal.</p>
             <ul className="contact-list">
               <li><Icon name="cal" /><span><small>Availability</small>Confirmed within 24–48 hours</span></li>
               <li><Icon name="ig" /><span><small>Instagram</small><a href={site.instagramDj} target="_blank" rel="noopener">@_theweezy_</a></span></li>

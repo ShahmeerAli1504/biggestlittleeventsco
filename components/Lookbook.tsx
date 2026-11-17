@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const items = [
-  { cls: "lb-a", d: "", src: "/assets/img/logo-hero.jpg", alt: "Signature table styling with gold chiavari chairs", cap: "Signature Tablescape" },
+  { cls: "lb-a", d: "", src: "/assets/img/logo-hero.jpg", alt: "Signature round table styling with black linens", cap: "Signature Tablescape" },
   { cls: "lb-b", d: "d1", src: "/assets/img/gallery-sparks-16.jpg", alt: "Couple's first dance framed by cold-spark fountains", cap: "Cold-Spark First Dance" },
   { cls: "lb-c", d: "d2", src: "/assets/img/gallery-dancefloor-18.jpg", alt: "Wedding reception under string lights with party lighting", cap: "String-Light Reception" },
   { cls: "lb-d", d: "", src: "/assets/img/gallery-sparks-20.jpg", alt: "Newlyweds dancing between spark fountains at night", cap: "Grand Moments" },

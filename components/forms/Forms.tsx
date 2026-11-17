@@ -76,9 +76,9 @@ export function EventForm({ id = "ev" }: { id?: string }) {
         <Legend n="III">Curated Service Selections</Legend>
         <div className="checks" data-require-one>
           <Check name="Services" service="decor" value="Bespoke Party Decor & Event Design Rentals" title="Bespoke Party Decor & Event Design Rentals" desc="Backdrops, centerpieces, linens, florals, draping & full room styling." />
-          <Check name="Services" service="tables" value="Tables & Chairs Rentals" title="Tables & Chairs" desc="Gold chiavari chairs, round & banquet tables, delivered and set." />
+          <Check name="Services" service="tables" value="Tables & Chairs Rentals" title="Tables & Chairs" desc="Round tables & quality chairs with black or white linens, delivered and set." />
           <Check name="Services" service="dj" value="Professional DJ, Sound & Dancefloor Lighting Systems" title="Professional DJ, Sound & Dancefloor Lighting Systems" desc="Open-format DJ, MC, pro audio, uplighting & dance-floor effects." />
-          <Check name="Services" service="bartending" value="Elite Bartending Staffing Services" title="Elite Bartending Staffing Services" desc="Certified, insured bartenders & hospitality staff." />
+          <Check name="Services" service="bartending" value="Elite Bartending Staffing Services" title="Elite Bartending Staffing Services" desc="Certified, professional bartenders & hospitality staff." />
           <Check name="Services" service="catering" value="Catering Coordination" title="Catering Coordination" desc="We coordinate your caterer’s timeline, service staff and buffet styling." />
         </div>
         <span className="err group-err hidden mt-2 text-[.8rem] text-[#a3392b]">Please select at least one service.</span>

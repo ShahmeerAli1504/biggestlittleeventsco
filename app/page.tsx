@@ -10,14 +10,14 @@ const perks: { icon: IconName; title: string; text: string }[] = [
   { icon: "glass", title: "Table-Side Cocktails", text: "1–2 elite servers assigned entirely to your VIP circle." },
   { icon: "crown", title: "Prestige, Not Delivery", text: "Your head table, treated like the private lounge it should be." },
   { icon: "clock", title: "Zero-Wait, All Night", text: "No bar lines for the people who matter most." },
-  { icon: "shield", title: "Certified & Insured", text: "Professional, uniformed, fully insured hospitality staff." },
+  { icon: "shield", title: "Certified & Professional", text: "Polished, uniformed, certified hospitality staff." },
 ];
 
 const services: { icon: IconName; title: string; text: string; href: string; cta: string }[] = [
   { icon: "decor", title: "Decor & Design", text: "Backdrops, centerpieces, florals, draping and complete room transformations.", href: "/services#rentals", cta: "Discover" },
-  { icon: "chair", title: "Tables & Chairs", text: "Gold chiavari chairs, rounds, banquets and cocktail tables — delivered and set.", href: "/services#tables-chairs", cta: "Discover" },
-  { icon: "music", title: "Professional DJ", text: "Open-format DJs, MC & dhol, pro sound and dance-floor lighting.", href: "/dj", cta: "Book a DJ" },
-  { icon: "bar", title: "Bartending Staff", text: "Certified, insured bartenders and hospitality staffing for any size crowd.", href: "/services#bartending", cta: "Discover" },
+  { icon: "chair", title: "Tables & Chairs", text: "Round tables and quality chairs with black or white linens — delivered and set.", href: "/services#tables-chairs", cta: "Discover" },
+  { icon: "music", title: "Professional DJ", text: "Mobile, traveling open-format DJs, MC & dhol — wherever your destination.", href: "/dj", cta: "Book a DJ" },
+  { icon: "bar", title: "Bartending Staff", text: "Certified, professional bartenders and hospitality staffing for any size crowd.", href: "/services#bartending", cta: "Discover" },
   { icon: "catering", title: "Catering Coordination", text: "Buffet styling, service staff and timeline coordination with your caterer.", href: "/services#catering", cta: "Discover" },
   { icon: "crown", title: "VIP Black Table", text: "Dedicated table-side cocktail servers for your inner circle.", href: "#vip", cta: "Discover" },
 ];
@@ -32,7 +32,7 @@ const steps = [
 const faqs = [
   ["Why don’t you list prices?", "No two events are the same. Your proposal is tailored to your venue layout, guest count and creative vision — so you only pay for exactly what your event needs."],
   ["What areas do you serve?", "We’re based in Reno and serve Sparks, Lake Tahoe, Carson City and all of Northern Nevada. Our DJs also travel for destination events — just ask."],
-  ["Do you provide the alcohol for bartending or VIP service?", "No. All alcohol is securely provided by the client/venue host. We provide the certified, professional and fully insured hospitality staffing."],
+  ["Do you provide the alcohol for bartending or VIP service?", "No. All alcohol is securely provided by the client/venue host. We provide the certified, professional hospitality staffing."],
   ["Can I book only a DJ, or only rentals?", "Absolutely. Every service is available on its own — but bundling decor, DJ and hospitality means one contract, one point of contact and one synchronized setup."],
   ["How far in advance should I book?", "For weddings and peak-season weekends, 3–6 months ahead is ideal. Weekend slots fill incredibly fast, so check your date as early as possible."],
   ["Do you handle setup and breakdown?", "Yes — delivery, setup, styling and breakdown are part of every rental and décor proposal."],
@@ -70,7 +70,7 @@ export default function Home() {
               <div className="clip">
                 <img
                   src="/assets/img/logo-hero.jpg"
-                  alt="Biggest Little Events Co — gold chiavari chairs around a black-linen table with a white floral centerpiece, mountain and Reno skyline motif"
+                  alt="Biggest Little Events Co — chairs around a black-linen round table with a white floral centerpiece, mountain and Reno skyline motif"
                   width={792}
                   height={863}
                   fetchPriority="high"
@@ -98,7 +98,7 @@ export default function Home() {
           <div className="matrix">
             <article className="matrix-card reveal">
               <div className="matrix-media">
-                <img src="/assets/img/logo-hero.jpg" alt="Styled round table with gold chiavari chairs and white floral centerpiece" loading="lazy" className="object-[50%_30%]" />
+                <img src="/assets/img/logo-hero.jpg" alt="Styled round table with chairs and white floral centerpiece" loading="lazy" className="object-[50%_30%]" />
                 <span className="matrix-num">I · Decor</span>
               </div>
               <div className="matrix-body">
@@ -196,7 +196,7 @@ export default function Home() {
             <Link className="btn" href="/contact?service=vip">Request Access</Link>
             <p className="disclaimer">
               <Icon name="info" />
-              <span>All alcohol is securely provided by the client/venue host. Our business explicitly provides the certified, professional, and fully insured hospitality staffing.</span>
+              <span>All alcohol is securely provided by the client/venue host. Our business explicitly provides the certified, professional hospitality staffing.</span>
             </p>
           </div>
           <div className="vip-media reveal d2">
