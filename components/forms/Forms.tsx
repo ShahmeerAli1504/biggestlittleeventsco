@@ -205,6 +205,7 @@ export function DjForm({ id = "dj" }: { id?: string }) {
           <Check name="DJ Add-Ons" value="MC / Host Services" title="MC & Host" desc="Grand entrances, announcements and crowd-moving hype." />
           <Check name="DJ Add-Ons" value="Live Dhol" title="Live Dhol Performance" desc="High-energy dhol for baraats, entrances and the dance floor." />
           <Check name="DJ Add-Ons" value="Uplighting & Dancefloor Lighting" title="Uplighting & Dance-Floor Lighting" desc="Wash the room in your colors, plus moving party lights." />
+          <Check name="DJ Add-Ons" value="LED Video Wall" title="LED Video Wall" desc="Custom visuals, monograms, slideshows and live video behind the booth." />
           <Check name="DJ Add-Ons" value="Cold Sparks / Fog Effects" title="Cold Sparks & Fog Effects" desc="First-dance and grand-entrance moments (venue permitting)." />
           <Check name="DJ Add-Ons" value="Ceremony / Cocktail Hour Audio" title="Ceremony & Cocktail Hour Audio" desc="Wireless mics and separate sound for every part of the day." />
           <Check name="DJ Add-Ons" value="Add Decor, Bartending or VIP Service" title="Bundle the full experience" desc="Add decor rentals, bartending staff or VIP Black Table Service — one team, one synchronized arrival." />

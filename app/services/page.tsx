@@ -41,8 +41,8 @@ const details: Detail[] = [
   {
     id: "dj", img: "/assets/img/gallery-dancefloor-34.jpg", alt: "Packed dance floor with colorful party lighting", pos: "50% 50%",
     title: "Professional DJ, Sound & Lighting", lead: "A packed dance floor, pristine acoustic engineering, and a seamless timeline.",
-    body: "Mobile, traveling open-format DJs who come to you wherever your destination is. We read the room — Bollywood to hip-hop, Latin to Top 40 — with MC services, live dhol, pro audio and dance-floor lighting that matches your décor.",
-    chips: ["Open-Format DJ", "Mobile & Traveling", "MC / Host", "Live Dhol", "Uplighting", "Cold Sparks", "Fog Effects", "Ceremony Audio"],
+    body: "Mobile, traveling open-format DJs who come to you wherever your destination is. We read the room — Bollywood to hip-hop, Latin to Top 40 — with MC services, live dhol, pro audio, an LED video wall and dance-floor lighting that matches your décor.",
+    chips: ["Open-Format DJ", "Mobile & Traveling", "MC / Host", "Live Dhol", "LED Video Wall", "Uplighting", "Cold Sparks", "Fog Effects", "Ceremony Audio"],
     href: "/dj#book", cta: "Book a DJ",
   },
   {

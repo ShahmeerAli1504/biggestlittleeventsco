@@ -19,7 +19,7 @@ const offer: { icon: IconName; title: string; text: string }[] = [
   { icon: "music", title: "Open-Format DJ", text: "Bollywood, Bhangra, hip-hop, R&B, Latin, EDM, Top 40 and throwbacks — blended live for your crowd." },
   { icon: "mic", title: "MC & Hosting", text: "Grand entrances, toasts, announcements and a timeline that runs on cue." },
   { icon: "drum", title: "Live Dhol", text: "Baraats, sangeets and dance-floor peaks with live Dholi energy." },
-  { icon: "light", title: "Lighting & Effects", text: "Uplighting, moving party lights, fog and cold sparks for unforgettable moments." },
+  { icon: "light", title: "LED Video Wall & Lighting", text: "A show-stopping LED video wall, uplighting, moving party lights, fog and cold sparks for unforgettable moments." },
   { icon: "sync", title: "Seamless Timeline", text: "We coordinate with your planner, venue and our own décor & hospitality team." },
   { icon: "pin", title: "Mobile & Traveling DJs", text: "No matter where your destination is — Reno, Tahoe, California or across the country — our fully mobile setup comes to you." },
 ];
@@ -27,7 +27,7 @@ const offer: { icon: IconName; title: string; text: string }[] = [
 const packages = [
   { title: "The Party", for: "Birthdays, anniversaries & private celebrations", items: ["Open-format DJ set", "Professional sound system", "Dance-floor party lighting", "Custom playlist consultation", "Wireless mic for toasts"], cta: "Secure Your Date" },
   { title: "The Celebration", for: "Weddings & receptions", featured: true, items: ["DJ + MC for the full reception", "Grand entrance & first-dance coordination", "Uplighting in your colors", "Ceremony & cocktail-hour audio", "Planning meeting & timeline build", "Cold sparks or fog add-on"], cta: "Secure Your Date" },
-  { title: "The Grand Affair", for: "Multi-day weddings, sangeets & baraats", items: ["Multi-event DJ coverage", "Live Dhol & MC", "Baraat sound & mobile setup", "Full lighting & effects package", "Bundle décor, bar staff & VIP service"], cta: "Request Access" },
+  { title: "The Grand Affair", for: "Multi-day weddings, sangeets & baraats", items: ["Multi-event DJ coverage", "Live Dhol & MC", "Baraat sound & mobile setup", "LED video wall, full lighting & effects", "Bundle décor, bar staff & VIP service"], cta: "Request Access" },
 ];
 
 export default function DjPage() {
